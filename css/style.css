@@ -4,7 +4,11 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'Libre Baskerville', serif;
+}
 
 /*
 @font-face {
@@ -50,14 +54,14 @@ h1,h2,h3,btn {
   font-family: 'Medula One', cursive;
 }
 
-.nav h1 {
-  width:20%;
-}
+
 nav {
   display:flex;
   justify-content:start; 
   gap : 24px;
   align-items: center;
+  padding: 10px;
+  background-color: #af966d;
 }
 .logo {
   width: 10%;
@@ -76,12 +80,63 @@ img{
 
 .tout {
   display: flex;
-  background-image: url(img/zelda-bg_pattern_brown.png);
 }
 
 .gras {
   font-weight: 900;
 }
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:blue;
+}
+
+.ui{
+  width:70%;
+}
+
+.haut{
+  text-align: center;
+  padding-top: 20px;
+}
+.bas {
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cinq{
+  width: 50%;
+}
+
+.mid {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.black {
+  background-image: url("../img/zelda-bg_pattern_brown.png");
+  color: white;
+}
+
+.white{
+  background-color: url("../img/zelda-bg_pattern_white.png");
+}
+
+.deux img{
+  width: 30%;
+}
+
 
 
 
@@ -211,6 +266,4 @@ left: -24px;
 right: -24px;
 }
 
-.nav {
-  background-color: #af966d;
-}
+
