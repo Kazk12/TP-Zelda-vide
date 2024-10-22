@@ -46,6 +46,44 @@ Jaune : #ffc107
 
 */
 
+h1,h2,h3,btn {
+  font-family: 'Medula One', cursive;
+}
+
+.nav h1 {
+  width:20%;
+}
+nav {
+  display:flex;
+  justify-content:start; 
+  gap : 24px;
+  align-items: center;
+}
+.logo {
+  width: 10%;
+}
+
+nav ol{
+  display:flex;
+  list-style-type: none;
+  gap : 10px;
+  align-items: center;
+}
+
+img{
+  width:100%;
+}
+
+.tout {
+  display: flex;
+  background-image: url(img/zelda-bg_pattern_brown.png);
+}
+
+.gras {
+  font-weight: 900;
+}
+
+
 
 /*  INTERDICTION DE CREER DES CLASS POUR LES MARGES, UTILISEZ LES CLASS BOOTSTRAP EXISTANTES :
     https://getbootstrap.com/docs/5.0/utilities/spacing/
@@ -171,4 +209,8 @@ left: -24px;
 -webkit-transform: translateY(-50%) scaleX(-1);
         transform: translateY(-50%) scaleX(-1);
 right: -24px;
+}
+
+.nav {
+  background-color: #af966d;
 }
