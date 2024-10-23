@@ -96,7 +96,7 @@ a:hover{
 }
 
 .ui{
-  width:70%;
+  width:30%;
 }
 
 .haut{
@@ -116,12 +116,13 @@ a:hover{
 }
 
 .cinq{
-  width: 50%;
+  width: 46%;
 }
 
 .mid {
   text-align: center;
   padding-bottom: 30px;
+  width: 60%;
 }
 
 .black {
@@ -178,6 +179,24 @@ a:hover{
 
 .txt{
   text-align: center;
+}
+
+.rez {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.haut p {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.cent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
