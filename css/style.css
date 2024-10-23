@@ -143,6 +143,43 @@ a:hover{
   gap: 10px;
 }
 
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.moitier{
+  width: 49%;
+  padding-top: 30px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.log{
+  width: 20%;
+}
+
+.dore {
+  background-color: #af966d;
+
+}
+
+.txt{
+  text-align: center;
+}
+
 
 
 
