@@ -131,18 +131,14 @@ a:hover{
 }
 
 .white{
-  background-color: url("../img/zelda-bg_pattern_white.png");
+  background-image: url("../img/zelda-bg_pattern_white.png");
 }
 
 .deux img{
   width: 30%;
 }
 
-.grid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
+
 
 .arrow {
   border: solid black;
@@ -199,6 +195,35 @@ a:hover{
   justify-content: center;
 }
 
+.deux {
+  text-align: center;
+}
+
+.moi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moi p {
+  width: 57%;
+  padding-bottom: 30px;
+}
+
+.bott {
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.jack{
+  display: flex;
+  justify-content: center;
+  gap : 20px;
+
+}
+
+.jack img{
+  width: 20%;
+}
 
 
 
