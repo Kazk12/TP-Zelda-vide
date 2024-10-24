@@ -237,6 +237,49 @@ a:hover{
   text-align: center;
 }
 
+.cinque {
+  text-align: center;
+}
+
+.ving {
+  width: 20%;
+}
+
+.kari{
+  width: 40%;
+}
+
+.Grosse {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.la{
+  width: 20%;
+  display: flex;
+}
+
+.kuip {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.uno {
+  width: 20%;
+}
+
+.duol {
+  width: 40%;
+}
+
+.boitee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
